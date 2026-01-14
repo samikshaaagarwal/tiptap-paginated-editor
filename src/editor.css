@@ -1,0 +1,65 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #1e1e1e;
+  font-family: serif;
+}
+
+.editor-wrapper {
+  padding: 40px 0;
+}
+
+.page {
+  width: 794px;
+  height: 1123px;
+  margin: 40px auto;
+  background: white;
+  color: black;
+  box-shadow: 0 0 10px rgba(0,0,0,0.15);
+  position: relative;
+  overflow: hidden;
+}
+
+.page-header {
+  height: 60px;
+  border-bottom: 1px solid #eee;
+}
+
+.page-footer {
+  height: 60px;
+  border-top: 1px solid #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  color: #666;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.page-body {
+  padding: 80px;
+  height: calc(100% - 120px);
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.editor-content {
+  outline: none;
+}
+
+.ProseMirror {
+  outline: none;
+  color: black;
+}
+
+.ProseMirror p {
+  margin: 0 0 12px;
+  line-height: 1.6;
+}
+
+.ProseMirror h1,
+.ProseMirror h2 {
+  margin: 24px 0 12px;
+}
